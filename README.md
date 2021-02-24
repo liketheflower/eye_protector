@@ -1,8 +1,9 @@
 # eye_protector: remind you every 20 minutes.
 A simple program to remind you to protect your eyes every 20 minutes.
 
-# needed package. 
+# Needed package. 
 PIL
+
 Please search python install pil on google to install PIL on your computer before moving forward.
 
 # How to use 
