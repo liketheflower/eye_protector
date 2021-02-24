@@ -1,23 +1,26 @@
 from PIL import Image
 import time
 
-TIME_PERIOD = 60 * 20  # 20 minutes
-TEST = True
-if TEST:
-    TIME_PERIOD = 10  # wait only 10 seconds to have a quick test
+TIME_PERIOD_SECOND = 60 * 20  # 20 minutes
+QUICK_TEST = True
+if QUICK_TEST:
+    TIME_PERIOD_SECOND = 10  # wait only 10 seconds to have a quick test
+
+
+def read_img_and_show(img_name):
+    im = Image.open(img_name)
+    im.show()
 
 
 def img_reminding():
-    im = Image.open("./../imgs/img1.png")
-    im.show()
+    read_img_and_show("./../imgs/img1.png")
     time.sleep(4)
-    im = Image.open("./../imgs/img2.png")
-    im.show()
+    read_img_and_show("./../imgs/img2.png")
 
 
 def eye_protector():
     while True:
-        time.sleep(TIME_PERIOD)
+        time.sleep(TIME_PERIOD_SECOND)
         img_reminding()
 
 
