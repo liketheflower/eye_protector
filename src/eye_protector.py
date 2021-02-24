@@ -8,10 +8,10 @@ if TEST:
 
 
 def img_reminding():
-    im = Image.open("img1.png")
+    im = Image.open("./../imgs/img1.png")
     im.show()
     time.sleep(4)
-    im = Image.open("img2.png")
+    im = Image.open("./../imgs/img2.png")
     im.show()
 
 

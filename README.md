@@ -7,9 +7,9 @@ PIL
 Please search python install pil on google to install PIL on your computer before moving forward.
 
 # How to use 
-- replace img1.png and img2.png to your favoriare ones.
-- Run the following 
+- Replace img1.png and img2.png from the imgs folder to your favoriare ones.
+- Go to the src folder and run the following 
 ```python
 python eye_protector.py
 ```
-- Bing! it works. (I know you want to have a quick test first, so I set the short as True by default. When test is done, set short as False then you will be reminded every 20 minutes.)
+- Bingo! it works. (I know you want to have a quick test first, so I set the short as True by default. When test is done, set short as False then you will be reminded every 20 minutes.)
