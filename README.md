@@ -1,4 +1,4 @@
-# eye_protector: remind you every 20 minutes.
+# eye_protector: Using images to remind you to protect your eyes every 20 minutes.
 A simple program to remind you to protect your eyes every 20 minutes.
 
 # Needed package. 
